@@ -43,3 +43,38 @@ line-height: 20px; /* 142.857% */
     gap: 130px;
 }
 
+.okta  {
+    display: flex;
+    gap: 130px;
+}
+
+
+
+
+
+.report {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    background: no-repeat center/cover;
+    height: 550px; /* You can adjust this as needed */
+    width: 1120px;
+}
+
+.report__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+
+.report__h2 {
+    margin: 0;
+
+}
+
+
