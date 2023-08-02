@@ -1,0 +1,113 @@
+.button{
+border-radius: var(--border-24);
+cursor: pointer;
+padding: 17px 26px;
+color: var(--color-white);
+background-color: var(--color-primary);
+border: none;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+text-align: center;
+display: inline-block;
+}
+
+.button:hover {
+    background-color: var(--color-hover-but);
+ 
+}
+
+
+.hero__points li::marker {
+    content: url('../images/points.svg');
+}
+
+.input_ghost {
+    width: 440px;
+height: 48px;
+border-radius: 32px;
+border: 1px solid var( --color-stroke);
+border-radius: 32px;
+padding-left: 15px;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+color: var(--color-stroke);
+}
+
+.button-form {
+    width: 440px;
+    border-radius: 32px;
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+margin-top: 20px;
+}
+
+.marquee {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    overflow: hidden;
+}
+
+.marquee-content {
+    display: flex; /* Для того, чтобы изображения располагались в одну строку */
+    animation: marquee 50s linear infinite;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+.marquee-content img {
+    margin: 40px; 
+    height: 80px;
+    opacity: .4;
+}
+
+
+h2 {
+    font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: 56px; /* 116.667% */
+padding-top: 140px;
+
+}
+
+.collab__p {
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 133.333% */
+color: var(--color-stroke);
+}
+
+
+
+.discover {
+    color: #4262FF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: underline;
+
+}
+
+.discover:hover {
+    color: var(--color-hover-but);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}

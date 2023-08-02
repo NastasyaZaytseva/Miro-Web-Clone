@@ -1,0 +1,45 @@
+.hero {
+    display: flex;
+    gap: 65px;
+}
+
+.section-hero{
+    background-color: rgb(251, 247, 239);
+}
+
+
+.hero__h1 {
+    padding-top: 58px;
+    font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 56px; /* 116.667% */
+letter-spacing: 1px;
+}
+
+.hero__points li {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+}
+
+.hero__form-section {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.hero_p {
+    color: var(--color-stroke);
+    font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
+
+.collab  {
+    display: flex;
+    gap: 130px;
+}
+
