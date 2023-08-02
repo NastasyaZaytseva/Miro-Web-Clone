@@ -7,6 +7,7 @@
     --color-white: #FFF;
     --color-hover: rgba(5, 0, 56, 0.60);
     --color-hover-but: #3253f9;
+    --color-pale: #F1F3FD;
 
     --border-24: 24px;
 
@@ -29,11 +30,11 @@ display: flex;
 
 }
 
-section {
+.section {
     display: flex;
     margin: 0 auto;
     padding: 0 140px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .heroForm {
@@ -46,5 +47,7 @@ section {
 
 }
 
-
+.section__points {
+    margin-top: 150px;
+}
 

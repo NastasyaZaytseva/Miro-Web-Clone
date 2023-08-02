@@ -111,3 +111,50 @@ color: var(--color-stroke);
     letter-spacing: 0em;
     text-align: left;
 }
+
+.chip {
+    cursor: pointer;
+    font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 21.6px */
+color: var(--color-text);
+border: 1px solid var(  --color-pale);
+border-radius: var(--border-24);
+padding: 13px 18px;
+word-wrap: nowrap;
+text-align: center;
+
+}
+
+.chip:hover {
+    border: 1px solid var( --color-pale);
+    border-radius: var(--border-24);
+    background: var(--color-pale);
+
+}
+
+.chip__active {
+    border-radius: var(--border-24);
+    border: 1px solid var(  --color-pale);
+    background: var(--color-pale);
+
+
+}
+
+.points__chip {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+    overflow: scroll;
+    margin-right: -24px;
+    margin-left: -24px;
+    padding-left: 24px;
+}
+
+.points__h3 {
+    font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 24px; /* 133.333% */
+}
