@@ -1,4 +1,9 @@
+@font-face {
+    font-family: "Formular";
+    src: url("../fonts/formular-regular-trial.otf") format("opentype");
+}
 
+  
 :root {
     --color-primary: #4262FF;
     --color-text: #050038;
@@ -17,7 +22,7 @@ body {
     background: var(--color-bg);
     margin: 0;
      color: var(--color-text);
-     font-family: Roboto, sans-serif;
+     font-family: "Formular", sans-serif;
      font-size: 18px;
      font-style: normal;
      font-weight: 400;

@@ -84,14 +84,39 @@ line-height: 20px; /* 142.857% */
 
 }
 
-.points__p {
+.points_p {
     font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 133.333% */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    color: var(--color-stroke);
 }
 
 .points__content {
     display: flex;
     gap: 65px;
+}
+
+.teams__points {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    color: var(--color-stroke);
+}
+
+.teams__points li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    gap: 24px;
+
+}
+
+
+
+.teams__img {
+   
+    height: 500px;
+
 }
