@@ -1,6 +1,6 @@
 .header__wrapper {
     max-width: var(--layout-width);
-    padding: 34px 24px;
+    padding: 24px 24px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -9,6 +9,10 @@
 
 header {
     border-bottom: 1px solid #F0F0F0;
+        position: sticky;
+    top: 0;
+    background-color: white; /* You can adjust the background color as needed */
+    z-index: 1000; /* Ensure the header stays on top of other content */
 
 }
 

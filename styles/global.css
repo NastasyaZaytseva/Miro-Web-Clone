@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Formular";
-    src: url("../fonts/formular-regular-trial.otf") format("opentype");
+    src: url("../fonts/formular-regular-trial.otf") format("opentype"),
+    url("../fonts/SpoofTrial-Black.otf") format("opentype"); 
 }
 
   
@@ -12,6 +13,7 @@
     --color-white: #FFF;
     --color-hover: rgba(5, 0, 56, 0.60);
     --color-hover-but: #3253f9;
+    --color-hover-ghost: #d2d9ff;
     --color-pale: #F1F3FD;
 
     --border-24: 24px;

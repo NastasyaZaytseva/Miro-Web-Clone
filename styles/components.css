@@ -12,11 +12,27 @@ text-align: center;
 display: inline-block;
 }
 
+
+
 .button:hover {
     background-color: var(--color-hover-but);
  
 }
+.button_ghost {
+    padding: 12px 26px;
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    border-radius: var(--border-24);
+    border: 1px solid var( --color-primary);
 
+}
+.button_ghost:hover {
+    background-color: var(--color-hover-ghost);
+    color: var(--color-primary);
+    border-radius: var(--border-24);
+    border: 1px solid var( --color-primary);
+
+}
 
 .hero__points li::marker {
     content: url('../images/points.svg');
@@ -189,4 +205,39 @@ text-decoration: none;
     justify-content: center;
   }
   
- 
+  .cards__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 20px;
+    
+
+  }
+  
+
+  .card__p {
+    position: relative;
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+color: var(--color-stroke);
+  }
+
+  .card__p::before {
+    content: "“"; /* Left double quotation mark */
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    line-height: 1;
+}
