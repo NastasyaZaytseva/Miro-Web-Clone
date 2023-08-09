@@ -150,5 +150,5 @@ line-height: 20px; /* 142.857% */
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px;
+    gap: 20px;
 }

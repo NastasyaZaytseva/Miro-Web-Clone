@@ -1,36 +1,38 @@
-.button{
-border-radius: var(--border-24);
-cursor: pointer;
-padding: 17px 26px;
-color: var(--color-white);
-background-color: var(--color-primary);
-border: none;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-text-align: center;
-display: inline-block;
+.button {
+    border-radius: var(--border-24);
+    cursor: pointer;
+    padding: 17px 26px;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
 }
 
 
 
 .button:hover {
     background-color: var(--color-hover-but);
- 
+
 }
+
 .button_ghost {
     padding: 12px 26px;
     background-color: var(--color-white);
     color: var(--color-primary);
     border-radius: var(--border-24);
-    border: 1px solid var( --color-primary);
+    border: 1px solid var(--color-primary);
 
 }
+
 .button_ghost:hover {
     background-color: var(--color-hover-ghost);
     color: var(--color-primary);
     border-radius: var(--border-24);
-    border: 1px solid var( --color-primary);
+    border: 1px solid var(--color-primary);
 
 }
 
@@ -40,26 +42,28 @@ display: inline-block;
 
 .input_ghost {
     width: 440px;
-height: 48px;
-border-radius: 32px;
-border: 1px solid var( --color-stroke);
-border-radius: 32px;
-padding-left: 15px;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 27px; /* 150% */
-color: var(--color-stroke);
+    height: 48px;
+    border-radius: 32px;
+    border: 1px solid var(--color-stroke);
+    border-radius: 32px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+    color: var(--color-stroke);
 }
 
 .button-form {
     width: 440px;
     border-radius: 32px;
     font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 27px; /* 150% */
-margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+    margin-top: 20px;
 }
 
 .marquee {
@@ -73,17 +77,23 @@ margin-top: 20px;
 }
 
 .marquee-content {
-    display: flex; /* Для того, чтобы изображения располагались в одну строку */
+    display: flex;
+    /* Для того, чтобы изображения располагались в одну строку */
     animation: marquee 50s linear infinite;
 }
 
 @keyframes marquee {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 .marquee-content img {
-    margin: 40px; 
+    margin: 40px;
     height: 80px;
     opacity: .4;
 }
@@ -91,19 +101,21 @@ margin-top: 20px;
 
 h2 {
     font-size: 48px;
-font-style: normal;
-font-weight: 800;
-line-height: 56px; /* 116.667% */
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+    /* 116.667% */
 
 
 }
 
 .collab__p {
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 133.333% */
-color: var(--color-stroke);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 133.333% */
+    color: var(--color-stroke);
 }
 
 
@@ -119,11 +131,9 @@ color: var(--color-stroke);
 
 }
 
-.discover::after {
-  
-  }
-  
-  
+.discover::after {}
+
+
 .discover:hover {
     color: var(--color-hover-but);
     font-size: 18px;
@@ -136,21 +146,22 @@ color: var(--color-stroke);
 .chip {
     cursor: pointer;
     font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 120%; /* 21.6px */
-color: var(--color-text);
-border: 1px solid var(  --color-pale);
-border-radius: var(--border-24);
-padding: 13px 18px;
-word-wrap: nowrap;
-text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 21.6px */
+    color: var(--color-text);
+    border: 1px solid var(--color-pale);
+    border-radius: var(--border-24);
+    padding: 13px 18px;
+    word-wrap: nowrap;
+    text-align: center;
 
 
 }
 
 .chip:hover {
-    border: 1px solid var( --color-pale);
+    border: 1px solid var(--color-pale);
     border-radius: var(--border-24);
     background: var(--color-pale);
 
@@ -158,7 +169,7 @@ text-align: center;
 
 .chip__active {
     border-radius: var(--border-24);
-    border: 1px solid var(  --color-pale);
+    border: 1px solid var(--color-pale);
     background: var(--color-pale);
 
 
@@ -176,68 +187,88 @@ text-align: center;
 
 .points__h3 {
     font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 24px; /* 133.333% */
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    /* 133.333% */
 
 }
 
 .contact__link {
     font-size: 18px;
     color: var(--color-text);
-text-decoration: underline;
+    text-decoration: underline;
     cursor: pointer;
 
 
 }
+
 .contact__link:hover {
 
-text-decoration: none;
+    text-decoration: none;
 
 
 
 }
+
 .stat__title {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  
-  .cards__title {
+}
+
+.cards__title {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 50px;
 
-  }
+}
 
-  .card {
+.card {
     background-color: white;
-    border-radius: 12px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px 20px;
-    
+    padding: 35px;
+    border-radius: 8px;
+    min-height: 340px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
 
-  }
-  
 
-  .card__p {
-    position: relative;
+}
+
+
+.card__p {
+
     font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-color: var(--color-stroke);
-  }
+    line-height: 24px;
+    color: var(--color-stroke);
 
-  .card__p::before {
-    content: "“"; /* Left double quotation mark */
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 24px;
-    line-height: 1;
+}
+
+
+
+.card__bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    align-items: center;
+}
+
+.profile {
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+}
+
+.card__bottom-p {
+    font-size: 14px;
+    color: var(--color-stroke);
+    margin: 0;
+
 }
