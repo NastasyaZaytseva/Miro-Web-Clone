@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Formular";
-    src: url("../fonts/formular-regular-trial.otf") format("opentype"),
-     url("../fonts/formular-light-trial.otf") format("opentype"); 
+    src: url("../fonts/Formular-Light.woff") format("woff"),
+         url("../fonts/Formular-Medium.ttf") format("truetype");
 }
 @font-face {
     font-family: "Spoof";

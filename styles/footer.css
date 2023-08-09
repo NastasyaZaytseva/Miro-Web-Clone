@@ -14,6 +14,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: flex-start;
+    border-bottom: 1px solid #F0F0F0;
 }
 
 .footer__section {
@@ -21,7 +22,8 @@
     min-width: 240px;
     margin-right: 20px;
     margin-bottom: 20px;
-    border-bottom: 1px solid #F0F0F0;
+
+
 }
 
 .footer__section-title {
@@ -56,9 +58,9 @@ margin-bottom: 24px;
 .footer__bottom {
     display: flex;
     align-items: flex-start;
-
     margin-top: 20px; 
     margin-left: 20px;
+   
 }
 
 .footer__bottom-list {
