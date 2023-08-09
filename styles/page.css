@@ -138,6 +138,7 @@ line-height: 20px; /* 142.857% */
 }
 
 .stat__h1 {
+    font-family: 'Spoof', sans-serif;
     font-size: 48px;
     line-height: 56px;
 
@@ -147,8 +148,41 @@ line-height: 20px; /* 142.857% */
 
 }
 
+.card__h2 {
+    font-family: 'Spoof', sans-serif;
+}
+
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
+
+.join__wrapper {
+    background-color: var(--color-text);
+    width: 942px;
+    border-radius: 16px;
+}
+
+.join__h2 {
+    font-family: 'Spoof', sans-serif;
+    color: var(--color-white);
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1px;
+}
+
+.join__link {
+    color: var(--color-stroke);
+    text-decoration: underline;
+    margin: 0;
+}
+
+.join__title {
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; 
+}
+

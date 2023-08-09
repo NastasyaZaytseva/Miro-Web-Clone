@@ -272,3 +272,33 @@ h2 {
     margin: 0;
 
 }
+
+.section-join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.join__wrapper {
+    max-width: 1200px;
+    width: 100%;
+    border-radius: 16px;
+    padding: 100px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+
+
+.join__cta {
+    margin-bottom: 20px;
+}
+
+.join__p {
+    color: var(--color-stroke);
+    margin: 0;
+}
+
+
+
+

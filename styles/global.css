@@ -1,7 +1,12 @@
 @font-face {
     font-family: "Formular";
     src: url("../fonts/formular-regular-trial.otf") format("opentype"),
-    url("../fonts/SpoofTrial-Black.otf") format("opentype"); 
+     url("../fonts/formular-light-trial.otf") format("opentype"); 
+}
+@font-face {
+    font-family: "Spoof";
+    src:   url("../fonts/SpoofTrial-Black.otf") format("opentype"); 
+
 }
 
   
