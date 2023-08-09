@@ -51,15 +51,17 @@ margin-bottom: 24px;
 .footer__list li:hover {
     color: var(--color-section);
     text-decoration: underline;
-    transition: color 0.3s ease, text-decoration 0.3s ease; 
+    transition: border 250ms ease 0s;
 
 }
 
 .footer__bottom {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 20px; 
     margin-left: 20px;
+    text-align: center;
    
 }
 
@@ -76,4 +78,11 @@ margin-bottom: 24px;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.5;
+}
+
+
+.footer__app {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
