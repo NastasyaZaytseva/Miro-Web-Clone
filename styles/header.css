@@ -52,9 +52,12 @@ a {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    color: var(--color-text);
     cursor: pointer;
     align-items: center;
-    color: var(--color-text);
+   
 }
 
+
+.header__login a {
+    color: var(--color-text);
+}
